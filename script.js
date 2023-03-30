@@ -235,7 +235,7 @@ window.onload = function () {
 
     let bianchettoDescription = document.createElement('p');
     bianchettoDescription.setAttribute('id', 'tartufoBianchettoDescription')
-    bianchettoDescription.textContent = "Il bianchetto anche detto marzuolo si distingue dall’aroma forte e piccante. Il marzuolo ha una forma golosa non troppo irregolare, con il perfidiò liscio di color bianco ocra, avvolte tendente al rossiccio. La parte interna anche detta gleba è piuttosto chiara, solcata da grossolane venature biancastre. Ha un profumo delicato all’inizio che man mano che matura tende a diventare più intenso con sentori di aglio. Ha un sapore forte, piccante e molto agliaceo."
+    bianchettoDescription.textContent = "Il bianchetto anche detto marzuolo si distingue dall’aroma forte e piccante. Il marzuolo ha una forma globosa non troppo irregolare, con il perfidiò liscio di color bianco ocra, avvolte tendente al rossiccio. La parte interna anche detta gleba è piuttosto chiara, solcata da grossolane venature biancastre. Ha un profumo delicato all’inizio che man mano che matura tende a diventare più intenso con sentori di aglio. Ha un sapore forte, piccante e molto agliaceo."
 
     let startBianchetto = new Date('2023-01-15');
     let endBianchetto = new Date('2023-04-15');
