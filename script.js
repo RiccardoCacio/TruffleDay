@@ -230,7 +230,7 @@ window.onload = function () {
 
     let bianchettoData = document.createElement('p');
     bianchettoData.setAttribute('id', 'tartufoBianchettoData')
-    bianchettoData.textContent = 'La raccolta inizia il 15/01/2023 e termina il 15/03/2023'
+    bianchettoData.textContent = 'La raccolta inizia il 15/01/2023 e termina il 15/04/2023'
 
 
     let bianchettoDescription = document.createElement('p');
