@@ -1,0 +1,510 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E1DCCF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*startTitle*/
+
+#title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #8b8c47;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 960px) {
+    #title {
+        font-size: 45px;
+    }
+}
+
+#subTitle {
+    font-size: 37px;
+    font-weight: 600;
+    color: #3B5323;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 960px) {
+    #subTitle {
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+#today {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3B5323;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+@media only screen and (max-width: 960px) {
+    #today {
+        font-size: 27px;
+    }
+}
+
+/*endTitle*/
+
+/*startTruffleBox*/
+
+#truffleBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    width: 900px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+    #truffleBox {
+        font-size: 20px;
+        width: 350px;
+
+    }
+}
+
+/*endTruffleBox*/
+
+/*startTartufoBianco*/
+
+
+
+#tartufoBiancoName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#tartufoBiancoData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoBiancoData {
+        font-size: 15px;
+    }
+}
+
+#imgBianco {
+    height: 220px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgBianco {
+        height: 180px;
+    }
+}
+
+#tartufoBiancoDescription {
+    margin-bottom: 55px;
+
+}
+
+
+/*endTartufoBianco*/
+
+/*startTartufoNeroPregiato*/
+
+#tartufoNeroPregName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#tartufoNeroPregData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoNeroPregData {
+        font-size: 15px;
+    }
+}
+
+#imgNeroPregiato {
+    height: 380px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgNeroPregiato {
+        height: 320px;
+    }
+}
+
+#tartufoNeroPregiatoDescription {
+    margin-bottom: 55px;
+}
+
+/*endTartufoNeroPregiato*/
+
+/*startTartufoMoscato*/
+
+#tartufoMoscatoName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#tartufoMoscatoData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoMoscatoData {
+        font-size: 15px;
+    }
+}
+
+#imgMoscato {
+    height: 420px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgMoscato {
+        height: 320px;
+    }
+}
+
+#tartufoMoscatoDescription {
+    margin-bottom: 55px;
+}
+
+
+/*endTartufoMoscato*/
+
+/*startTartufoScorzone*/
+
+#tartufoScorzoneName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoScorzoneName {
+        font-size: 25px;
+    }
+}
+
+#tartufoScorzoneData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoScorzoneData {
+        font-size: 15px;
+    }
+}
+
+#imgScorzone {
+    height: 220px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgScorzone {
+        height: 150px;
+    }
+}
+
+#tartufoScorzoneDescription {
+    margin-bottom: 55px;
+}
+
+/*endTartufoScorzone*/
+
+/*startTartufoUncinato*/
+
+#tartufoUncinatoName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#tartufoUncinatoData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoUncinatoData {
+        font-size: 15px;
+    }
+}
+
+#imgUncinato {
+    height: 190px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgUncinato {
+        height: 130px;
+    }
+}
+
+#tartufoUncinatoDescription {
+    margin-bottom: 55px;
+}
+
+/*endTartufoUncinato*/
+
+/*startTartufoNeroInvernale*/
+
+#tartufoNeroInvName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoNeroInvName {
+        font-size: 25px;
+    }
+}
+
+#tartufoNeroInvData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoNeroInvData {
+        font-size: 15px;
+    }
+}
+
+#imgNeroInvernale {
+    height: 330px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgNeroInvernale {
+        height: 250px;
+    }
+}
+
+#tartufoNeroInvDescription {
+    margin-bottom: 55px;
+}
+
+/*endTartufoNeroInvernale*/
+
+/*startTartufoBianchetto*/
+
+#tartufoBianchettoName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#tartufoBianchettoData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoBianchettoData {
+        font-size: 15px;
+    }
+}
+
+#imgBianchetto {
+    height: 340px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgBianchetto {
+        height: 230px;
+    }
+}
+
+#tartufoBianchettoDescription {
+    margin-bottom: 55px;
+}
+
+/*endTartufoBianchetto*/
+
+/*startTartufoNeroLiscio*/
+
+#tartufoNeroLiscioName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+
+#tartufoNeroLiscioData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoNeroLiscioData {
+        font-size: 15px;
+    }
+}
+
+#imgNeroLiscio {
+    height: 300px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgNeroLiscio {
+        height: 250px;
+    }
+}
+
+#tartufoNeroLiscioDescription {
+    margin-bottom: 55px;
+}
+
+/*endTartufoNeroLiscio*/
+
+/*startTartufoNeroOrdinario*/
+
+#tartufoNeroOrdName {
+    font-size: 30px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#tartufoNeroOrdData {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+@media only screen and (max-width: 960px) {
+    #tartufoNeroOrdData {
+        font-size: 15px;
+    }
+}
+
+
+#imgNeroOrdinario {
+    height: 430px;
+}
+
+@media only screen and (max-width: 960px) {
+    #imgNeroOrdinario {
+        height: 350px;
+    }
+}
+
+#tartufoNeroOrdescription {
+    margin-bottom: 55px;
+}
+
+/*endTartufoNeroOrdinario*/
+
+/*startStagioniDiChiusura*/
+
+#stagioniDiChiusura {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+    text-align: center;
+}
+@media only screen and (max-width: 960px) {
+    #stagioniDiChiusura {
+        font-size: 15px;
+    }
+}
+
+/*endStagioniDiChiusura*/
+
+/*startAvvertenze*/
+
+#avvertenze {
+    font-size: 23px;
+    color: #3B5323;
+    font-weight: 600;
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+    #avvertenze {
+        font-size: 15px;
+    }
+}
+
+/*endAvvertenze*/
+
+/*/startFooter/*/
+footer {
+    background-color: #8b8c47;
+    width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+    footer {
+        width: 100%;
+    }
+}
+
+#footerBox {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+#firstFooterP {
+    margin-top: 10px;
+}
+
+#footerBox>p {
+    margin-bottom: 10px;
+}
+
+/*/endFooter/*/
