@@ -7,22 +7,7 @@ window.onload = function () {
     let numberMonth = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'];
     let todayDate = letteralDay[data.getDay()] + ' ' + data.getDate() + '/' + numberMonth[data.getMonth()] + '/' + data.getFullYear();
     today.innerHTML = todayDate;
-    let truffleBox = document.getElementById('truffleBox')
-
-
-    function nascondiDivSenzaTesto() {
-        // seleziona tutti i div all'interno del documento
-        const divs = document.querySelectorAll('div');
-
-        // itera su tutti i div selezionati
-        divs.forEach(div => {
-            // se il div corrente non contiene del testo
-            if (!div.innerText.trim()) {
-                // nascondi il div corrente
-                div.style.display = 'none';
-            }
-        });
-    }
+    let truffleBox = document.getElementById('truffleBox');
 
 
     //tartufo bianco (Cambia Ogni Anno)
@@ -345,8 +330,4 @@ window.onload = function () {
     if (data >= startSecondaChiusura && data <= endSecondaChiusura) {
         secondaChiusura.appendChild(chiusuraDue)
     }
-
-
-    nascondiDivSenzaTesto()
-
 }
