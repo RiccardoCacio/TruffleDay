@@ -301,7 +301,7 @@ window.onload = function () {
 
     //Prima Chiusura
 
-    let primaChiusura = document.getElementById('primaChiusura');
+    let primaChiusura = document.getElementById('chiusuraUno');
 
     let chiusuraUno = document.createElement('p')
     chiusuraUno.textContent = 'In questo momento in Umbria non si possono raccogliere tartufi, torna il giorno 28-05-2023 per la raccolta del Tartufo nero estivo anche detto scorzone.'
@@ -317,7 +317,7 @@ window.onload = function () {
 
     //Seconda Chiusura
 
-    let secondaChiusura = document.getElementById('secondaChiusura');
+    let secondaChiusura = document.getElementById('chiusuraDue');
 
     let chiusuraDue = document.createElement('p')
     chiusuraUno.textContent = 'In questo periodo in Umbria non si possono raccogliere tartufi, torna il giorno 24-09-2023 per la raccolta del Tartufo nero estivo anche detto scorzone.'
